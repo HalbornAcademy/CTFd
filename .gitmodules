@@ -1,3 +1,7 @@
 [submodule "CTFd/plugins/ctfd-oracle-challenges"]
 	path = CTFd/plugins/oracle_challenges
 	url = git@github.com:HalbornAcademy/ctfd-oracle-challenges.git
+[submodule "CTFd/themes/neon"]
+	path = CTFd/themes/neon
+	url = git@github.com:HalbornAcademy/ctfd-neon-theme.git
+	branch = halborn
