@@ -3,7 +3,7 @@ version: '2'
 services:
   ctfd:
     image: ferranhalborn/ctfd
-    build: .
+    # build: .
     user: root
     restart: always
     ports:
@@ -20,7 +20,7 @@ services:
     volumes:
       - .data/CTFd/logs:/var/log/CTFd
       - .data/CTFd/uploads:/var/uploads
-      - .:/opt/CTFd:ro
+      # - .:/opt/CTFd:ro
     depends_on:
       - db
     networks:
