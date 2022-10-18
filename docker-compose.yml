@@ -2,6 +2,7 @@ version: '2'
 
 services:
   ctfd:
+    image: ferranhalborn/ctfd
     build: .
     user: root
     restart: always
